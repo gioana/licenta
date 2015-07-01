@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_grey">
+
+    <Button
+        android:id="@+id/start_run_button"
+        style="@style/DefaultButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vertical_margin"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:background="@color/green"
+        android:padding="15dp"
+        android:text="@string/enable_gps" />
+
+
+    <Button
+        android:id="@+id/view_runs_button"
+        style="@style/DefaultButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vertical_margin"
+        android:background="@color/yellow"
+        android:drawableTop="@drawable/menu_list_tracks"
+        android:padding="15dp"
+        android:text="@string/view_tracks"
+        android:textColor="@color/text_grey" />
+
+    <Button
+        android:id="@+id/view_records_button"
+        style="@style/DefaultButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/vertical_margin"
+        android:background="@color/blue"
+        android:drawableTop="@drawable/record"
+        android:padding="15dp"
+        android:text="@string/view_records" />
+
+    <Button
+        android:id="@+id/view_charts_button"
+        style="@style/DefaultButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:drawableTop="@drawable/pie_chart"
+        android:padding="15dp"
+        android:text="@string/view_charts" />
+</LinearLayout>
